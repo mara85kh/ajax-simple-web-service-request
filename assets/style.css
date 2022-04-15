@@ -1,0 +1,57 @@
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+    transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+    transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+  }
+}
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 16%;
+    transform-origin: 50% 16%;
+  }
+  100% {
+    -webkit-transform: scale(1.25) translateY(-15px);
+    transform: scale(1.25) translateY(-15px);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+  }
+}
+
+body {
+  background-image: url("fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kenburns-top {
+  -webkit-animation: kenburns-top 5s ease-out both;
+  animation: kenburns-top 5s ease-out both;
+}
+h1 {
+  text-align: center;
+  color: rgb(66, 26, 26);
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+h2 {
+  color: rgb(39, 39, 85);
+  font-size: 200%;
+}
+#quote {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 150%;
+  padding: 20px 25px 20px 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(25, 65, 65);
+  background: linear-gradient(118deg, rgb(222, 238, 253), rgb(16, 76, 136));
+}
